@@ -85,7 +85,7 @@ export default function DashboardPage() {
               <Bell className="h-4 w-4 mr-2" />
               Notifications
               {notifications?.length > 0 && (
-                <Badge variant="destructive" className="ml-2">
+                <Badge variant="destructive\" className="ml-2">
                   {notifications.length}
                 </Badge>
               )}

@@ -11,18 +11,7 @@ import { Textarea } from '../components/ui/textarea';
 import { Label } from '../components/ui/label';
 import { Switch } from '../components/ui/switch';
 import { useToast } from '../hooks/use-toast';
-import { 
-  Package, 
-  Plus, 
-  Search, 
-  Edit, 
-  Trash2, 
-  Eye,
-  AlertTriangle,
-  Barcode,
-  Image as ImageIcon,
-  Sync
-} from 'lucide-react';
+import { Package, Plus, Search, Edit, Trash2, Eye, AlertTriangle, Barcode, Image as ImageIcon, FolderSync as Sync } from 'lucide-react';
 
 export default function ProductsPage() {
   const { toast } = useToast();

@@ -11,17 +11,7 @@ import { Label } from '../components/ui/label';
 import { Switch } from '../components/ui/switch';
 import { useToast } from '../hooks/use-toast';
 import { useAuth } from '../contexts/AuthContext';
-import { 
-  Settings, 
-  Users, 
-  Plus, 
-  Edit, 
-  Trash2,
-  Shield,
-  Bell,
-  Database,
-  Sync
-} from 'lucide-react';
+import { Settings, Users, Plus, Edit, Trash2, Shield, Bell, Database, FolderSync as Sync } from 'lucide-react';
 
 export default function SettingsPage() {
   const { toast } = useToast();
